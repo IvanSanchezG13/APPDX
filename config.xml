@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<widget xmlns = "http://www.w3.org/ns/widgets"
+    xmlns:gap = "http://phonegap.com/ns/1.0"
+    id        = "com.isgind.diax"
+    version   = "2.0.0">
+
+<name>DIA_X</name>
+
+<description>
+A new age for politics.
+</description>
+
+<author href="https://www.facebook.com/IvanSanchezG13" email="ivansanchez.g13@gmail.com">
+Iván Sánchez González
+</author>
+
+</widget>
