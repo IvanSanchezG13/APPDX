@@ -1,10 +1,13 @@
 @charset "utf-8";
 /* CSS Document */
 .bing{
-	width: 80%;
+	width: 80% !important;
 };
 
 .env{
-	display:compact;
+	display:compact !important;
+	width: auto !important;
+	height: 35px !important;
+	max-height: 40px !important;
 };
 
