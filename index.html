@@ -17,7 +17,7 @@ function enviar(){
         if (ischecked) {
             checkbox_value += $(this).val() + "|";
         }});
-	alert("Revision de boton"+checkbox_value);
+	alert("Revision de boton"+checkbox_value+$("#seccion").val()+$("#casilla").val());
 	/*$.ajax({
       type: "post",
           url: "http://myServer" ,
@@ -239,7 +239,7 @@ function enviar(){
 	      <label for="checkbox_71">72</label>
           </div>
         </fieldset></div>
-        <div data-role="fieldcontain" class="env">
+        <div class="env">
         	<button id="enviar" onclick="enviar();">Enviar</button>
         </div>
 	</div>
