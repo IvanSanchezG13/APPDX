@@ -18,6 +18,19 @@ function enviar(){
             checkbox_value += $(this).val() + "|";
         }});
 	alert("Revision de boton"+checkbox_value+$("#seccion").val()+$("#casilla").val());
+	$.ajax({
+		type: POST,
+		url:"192.168.1.200/varapp.php",
+		dataType:"text",
+		data:{
+			sec:$("#seccion").val(),
+			casilla:$("#casilla").val(),
+			votos: checkbox_value,
+		},
+		success: function(data){
+			alert(data);
+		}
+		});
 	/*$.ajax({
       type: "post",
           url: "http://myServer" ,
