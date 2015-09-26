@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <widget xmlns = "http://www.w3.org/ns/widgets"
     xmlns:gap = "http://phonegap.com/ns/1.0"
-    id        = "com.isgind.diax"
+    id        = "com.devloment.diax"
     version   = "2.0.0">
 
 <name>DIA_X</name>
@@ -10,8 +10,10 @@
 A new age for politics.
 </description>
 
-<author href="https://www.facebook.com/IvanSanchezG13" email="ivansanchez.g13@gmail.com">
+<author href="http://devloment.me" email="ceo@devloment.me">
 Iván Sánchez González
 </author>
+
+<access origin="http://devloment.me" subdomains="true" />
 
 </widget>
