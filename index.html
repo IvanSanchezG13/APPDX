@@ -17,12 +17,13 @@ function enviar(){
         if (ischecked) {
             checkbox_value += $(this).val() + "|";
         }});
-	alert("Revision de boton"+checkbox_value+$("#seccion").val()+$("#casilla").val());
+	alert("Revision de boton");
 	var votos ={
 			"sec":$("#seccion").val(),
 			"casilla":$("#casilla").val(),
 			"votos": checkbox_value,
 		};
+	alert(votos['sec']);
 	$.ajax({
 		type: POST,
 		url:"devloment.me/regvotos.php",
@@ -31,7 +32,9 @@ function enviar(){
 		contentType:"application/json",
 		data: JSON.stringify(votos),
 		success: function(data){
-			alert(data);
+			alert(data.status);
+			alert(data.pers);
+			
 		}
 		});
 	
