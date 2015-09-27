@@ -14,6 +14,6 @@ A new age for politics.
 Iván Sánchez González
 </author>
 
-<access origin="http://devloment.me" subdomains="true" />
+<access origin="*"/>
 
 </widget>
